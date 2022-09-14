@@ -1,0 +1,119 @@
+h1 {
+	color: black;
+	text-align: center;
+}
+
+a:link{
+	color: skyblue;
+}
+
+body{
+	background-image: url('42.jpg');
+	background-size: 1440px;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+img {
+  width: 15%;
+	height: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  text-align: centre;
+
+}
+
+tr {
+	text-align: center;
+}
+
+a:visited {
+    color: darkcyan;
+}
+
+a:hover{
+    background-color: greenyellow;
+}
+
+a:link{
+    color: orange;
+}
+
+.pb,.pc,.rb{
+    color: steelblue;
+    font-weight: bold;
+}
+
+.gsu{
+	color: red;
+    font-weight: bold;
+}
+
+.rvr{
+	color: goldenrod;
+    font-weight: bold;
+}
+
+.c{
+	color: blueviolet;
+    font-weight: bold;
+
+}
+
+.q{
+	color: black;
+    font-weight: bold;
+    padding-inline-start: 40px;
+}
+
+.cs{
+	color: red;
+    font-weight: bold;
+}
+
+.p1{
+    font-size: 20px;
+    padding-inline-start: 40px;
+}
+
+.p2{
+    font-size: 20px;
+    color: blue;
+    padding-inline-start: 480px;
+    font-weight: bold;
+}
+
+
+ul li::before {
+  
+  color: red; 
+  font-weight: bold; 
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em;
+}
+
+
+tr:nth-child(even) {
+  background-color: black;
+  }
+
+
+.websites{
+    list-style-type:disc;
+    font-size: 21px;
+    margin-top: 5px;
+    color: seagreen;
+}
